@@ -84,11 +84,9 @@ export default function Projects() {
     for (let i = 1; i <= 3; i++) {
       rows.push(
         <div className="row" key={i}>
-          <div className="card card-left">
-            <Image src="/img1.jpg" alt="" width={100} height={100} />
-          </div>
+          <div className="card card-left"></div>
           <div className="card card-right">
-            <Image src="/img2.jpg" alt="" width={100} height={100} />
+            <div className="bg-zinc-800 height"></div>
           </div>
         </div>
       );
